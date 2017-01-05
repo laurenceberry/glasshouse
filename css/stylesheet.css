@@ -5,6 +5,7 @@ header{
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
+  background-color: #27489B;
 }
 
 body h1{
@@ -39,6 +40,7 @@ main{
 section.hero{
   background-image: url("../images/hero.png");
   background-size: cover;
+  background-position: center;
   overflow: hidden;
   max-height: 600px;
 }
@@ -68,7 +70,7 @@ section.hero{
 }
 
 .right{
-  width: 33.33%;
+  width: 32.9%;
   height: 100%;
   position: relative;
   vertical-align: bottom;
@@ -97,6 +99,24 @@ section.hero{
   font-size: 1.25em;
 }
 
+footer{
+  background-color: #27489B
+}
+
+footer .inner{
+  padding: 25px;
+}
+
+footer .right{
+  vertical-align: top;
+  color: #4A90E2;
+}
+
+footer a{
+  color: #4A90E2;
+}
+
+
 @media only screen and (max-width: 500px) {
   section.hero{
     max-height: none;
@@ -120,3 +140,4 @@ section.hero{
     display: none;
   }
 }
+

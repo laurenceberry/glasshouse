@@ -16,7 +16,8 @@ body h1{
 
 body h2{
   font-weight: 400;
-  font-size: 2.5em
+  font-size: 2.5em;
+  line-height: 1.1em;
 }
 
 strong{
@@ -120,10 +121,11 @@ footer a{
 @media only screen and (max-width: 500px) {
   section.hero{
     max-height: none;
+    background-image: none;
   }
 
   .hero .right, .hero .left{
-    min-height: 450px;
+    min-height: 500px;
   }
 
   .left, .right {
@@ -131,9 +133,9 @@ footer a{
   }
 
   .right img{
-    width: 150%;
-    bottom: -65%;
-    left: -40%;
+    width: 160%;
+    bottom: -50%;
+    left: -45%;
   }
 
   .details h2{
